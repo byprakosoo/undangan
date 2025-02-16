@@ -114,7 +114,7 @@ export const guest = (() => {
         basicAnimation();
         opacity('welcome', 0.025);
 
-        audio.init();
+        // audio.init();
         theme.spyTop();
 
         util.timeOut(openAnimation, 1500);

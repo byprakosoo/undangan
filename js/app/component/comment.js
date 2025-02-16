@@ -219,6 +219,18 @@ export const comment = (() => {
             presence.disabled = true;
         }
 
+        const comment = document.getElementById('form-comment');
+        let commentValue = comment.value;
+
+        if (commentValue.length == 0) {
+            if (id) {
+                name.scrollIntoView({ behavior: 'smooth' });
+            }
+
+            alert('Tolong isi komennya juga yah 😁');
+            return;
+        }
+
         const form = document.getElementById(`form-${id ? `inner-${id}` : 'comment'}`);
         form.disabled = true;
 
