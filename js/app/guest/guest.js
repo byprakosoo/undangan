@@ -162,7 +162,7 @@ export const guest = (() => {
             text: 'The Wedding of Bayu and Shabrina',
             dates: '20250526T110000/20250526T130000',
             details: 'AD Premier Office Park Lantai 10, Jl. TB Simatupang No.5, RT.5/RW.7, Ragunan, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12550',
-            location: 'https://g.co/kgs/YbS8oPZ',
+            location: 'https://maps.app.goo.gl/GJG4HyUUqsNYqc9G8',
             ctz: 'Asia/Jakarta',
         };
 
