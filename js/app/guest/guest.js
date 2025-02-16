@@ -159,10 +159,10 @@ export const guest = (() => {
         const queryParams = new URLSearchParams();
         const data = {
             action: 'TEMPLATE',
-            text: 'The Wedding of Wahyu and Riski',
-            dates: '20230315T100000/20230315T110000',
-            details: 'RT 10 RW 02, Desa Pajerukan, Kec. Kalibagor, Kab. Banyumas, Jawa Tengah 53191.',
-            location: 'https://goo.gl/maps/ALZR6FJZU3kxVwN86',
+            text: 'The Wedding of Bayu and Shabrina',
+            dates: '20250526T110000/20250526T130000',
+            details: 'AD Premier Office Park Lantai 10, Jl. TB Simatupang No.5, RT.5/RW.7, Ragunan, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12550',
+            location: 'https://g.co/kgs/YbS8oPZ',
             ctz: 'Asia/Jakarta',
         };
 
