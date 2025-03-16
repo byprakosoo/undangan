@@ -11,7 +11,7 @@
 }
 
 .font-esthetic {
-    font-family: 'Sacramento', cursive !important;
+    font-family: "Dancing Script", serif !important;
 }
 
 .font-arabic {
@@ -48,6 +48,9 @@ html[data-bs-theme="light"] .btn-float {
     width: 100%;
     height: 100%;
     z-index: 1056;
+    background-image: url("../assets/images/splash-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 html[data-bs-theme="light"] .color-theme-svg {
@@ -81,4 +84,8 @@ html[data-bs-theme="dark"] .bg-white-black {
     height: 100%;
     object-fit: cover;
     mask-image: linear-gradient(0.5turn, transparent, black 10%, black 90%, transparent);
+}
+
+.form-select, .form-control{
+    font-weight: 200;
 }
