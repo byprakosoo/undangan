@@ -95,9 +95,9 @@ html[data-bs-theme="dark"] .bg-white-black {
 
 .flower{
     position: absolute;
-    z-index: 0;
-    width: 150px;
-    height: 134px;
+    z-index: -;
+    width: 200px;
+    height: 168px;
 }
 
 .flower-left{
@@ -106,9 +106,4 @@ html[data-bs-theme="dark"] .bg-white-black {
 
 .flower-right{
     right: -17vw;
-}
-
-.welcome-main{
-    position: relative;
-    z-index: 1;
 }
