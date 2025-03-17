@@ -111,13 +111,13 @@ export const guest = (() => {
             document.getElementById('button-theme').style.display = 'block';
         }
 
-        basicAnimation();
+        // basicAnimation();
         opacity('welcome', 0.025);
 
         audio.init();
         theme.spyTop();
 
-        util.timeOut(openAnimation, 1500);
+        // util.timeOut(openAnimation, 1500);
     };
 
     /**
