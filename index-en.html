@@ -77,6 +77,8 @@
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" integrity="sha256-pQBbLkFHcP1cy0C8IhoSdxlm0CtcH5yJ2ki9jjgR03c=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.js" integrity="sha256-4QOrAnhDOdVsk8o96+LFopk3LK/FIVFI1VKD3gRuhtE=" crossorigin="anonymous"></script>
     <script src="./dist/guest.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+
 </head>
 
 <!-- If not using comments, you can remove the data-key, data-url attributes, and ignore dashboard.html -->
@@ -191,10 +193,11 @@
                         </div>
                     </div>
 
-                    <div class="overflow-x-hidden pb-4">
+                    <div class="pb-4">
 
                         <div data-aos="fade-right" data-aos-duration="2000">
                             <img src="./assets/images/placeholder.webp" data-src="./assets/images/female.png" alt="akhwat" onclick="undangan.guest.modal(this)" class="img-center-crop rounded-circle border border-3 border-light shadow my-4 mx-auto">
+                            <dotlottie-player src="https://lottie.host/9a8d7db9-bdf5-45cf-acbd-9c9599662608/7bUaUM0Llc.lottie" background="transparent" speed="1" style="width: 150px; height: 150px; position: absolute;" loop autoplay></dotlottie-player>
                             <h2 class="font-esthetic m-0" style="font-size: 1.25rem;">Shabrina Defi Khansa, SH, LL.M</h2>
                             <p class="mt-3 mb-1" style="font-size: 1rem;">First Daughter Of</p>
                             <p class="mb-0" style="font-size: 0.75rem;">Dr. Firoz Gaffar, SH, MH and Dewi Shinta, SH</p>
@@ -222,7 +225,15 @@
 
                         <div data-aos="fade-left" data-aos-duration="2000">
                             <img src="./assets/images/placeholder.webp" data-src="./assets/images/male.png" alt="ikhwan" onclick="undangan.guest.modal(this)" class="img-center-crop rounded-circle border border-3 border-light shadow my-4 mx-auto">
-                            <h2 class="font-esthetic m-0" style="font-size: 1.25rem;">Bayu Adi Prakoso, S.Kom, M.MT</h2>
+                            <dotlottie-player
+                            src="https://lottie.host/658ee8ad-627c-4910-8806-fc661a1aa630/UTDdQVV0Em.lottie"
+                            background="transparent"
+                            speed="1"
+                            style="width: 150px; height: 150px; position: absolute; right: 0px;"
+                            loop
+                            autoplay
+                          ></dotlottie-player>
+                          <h2 class="font-esthetic m-0" style="font-size: 1.25rem;">Bayu Adi Prakoso, S.Kom, M.MT</h2>
                             <p class="mt-3 mb-1" style="font-size: 1rem;">First Son of</p>
                             <p class="mb-0" style="font-size: 0.75rem;">Drs. Bambang Adi Sukarelawan and Dra. Andrijani</p>
                         </div>
@@ -432,6 +443,7 @@
                 <!-- Wedding Date -->
                 <section class="bg-white-black pb-2 mt-5" id="adab-walimah">
                     <div class="container text-center">
+                        <dotlottie-player src="https://lottie.host/9a8d7db9-bdf5-45cf-acbd-9c9599662608/7bUaUM0Llc.lottie" background="transparent" speed="1" style="width: 150px; height: 150px; position: absolute;" loop autoplay></dotlottie-player>
                         <h2 class="font-esthetic py-4 m-0" style="font-size: 1.5rem;">Adab Walimatul 'Ursy</h2>
                         <!-- Love animation -->
                         <div class="position-relative">
@@ -542,7 +554,7 @@
                                     <p class="m-0">Sama bisa format text seperti Whatsapp lohh... cobainn jugaaa, makaciwww bestieee</p>
                                 </div> -->
 
-                                <label for="form-comment" class="form-label my-1"><i class="fa-solid fa-comment me-2"></i>RSVP &amp; Confirmation</label>
+                                <label for="form-comment" class="form-label my-1"><i class="fa-solid fa-comment me-2"></i>Message &amp; Do'a</label>
                                 <textarea class="form-control shadow-sm rounded-4" id="form-comment" rows="4" minlength="1" maxlength="1000" placeholder="Write message and Do'a" autocomplete="off" data-offline-disabled="false"></textarea>
                             </div>
 
@@ -574,15 +586,21 @@
                 <!-- Nasihat -->
                 <section class="bg-light-dark pb-4">
                     <div class="container text-center">
+                        <dotlottie-player src="https://lottie.host/9a8d7db9-bdf5-45cf-acbd-9c9599662608/7bUaUM0Llc.lottie" background="transparent" speed="1" style="width: 150px; height: 150px; position: absolute;right: 0px;z-index: 100;" loop autoplay></dotlottie-player>
                         <h2 class="font-esthetic pt-2 mb-4" style="font-size: 1.5rem;">Wedding Naseeha</h2>
-                        <p class="mb-3" style="font-size: 0.75rem;">Baarakallahu laka wa baaraka ‘alaika wa jama’a bainakuma fi khayrin</p>
+                        <!-- <p class="mb-3" style="font-size: 0.75rem;">Baarakallahu laka wa baaraka ‘alaika wa jama’a bainakuma fi khayrin</p>
                         <p class="mb-3" style="font-size: 0.75rem;"><b>“May Allah bless you and unite both of you in goodness"</b></p>
-                        <p class="mb-3" style="font-size: 0.75rem;">- HR. Abu Daud no. 2130, authenticated by Al Albani in Shahih Abu Daud -</p>
+                        <p class="mb-3" style="font-size: 0.75rem;">- HR. Abu Daud no. 2130, authenticated by Al Albani in Shahih Abu Daud -</p> -->
                         <div class="bg-theme-auto rounded-4 shadow p-4 mx-4 mt-2 mb-4 text-start" data-aos="fade-up" data-aos-duration="2500">
-                            <p class="mt-2 mb-0 p-0" style="font-size: 0.75rem;"><i>A household will not bear sweet and ripe fruits except through effort, unity, and togetherness between husband and wife, built upon love and affection.</i></p>
-                            <p class="mt-2 mb-0 p-0" style="font-size: 0.75rem;"><i>Therefore, love and affection built on faith in Allah are the two wings of life for a marriage to successfully fly and not fall when facing the challenges and obstacles of married life.</i></p>
+                            <p class="mt-2 mb-0 p-0" style="font-size: 1rem;"><i><b>"A good beginning determines..."</b></i></p>
+                            <p class="mt-2 mb-0 p-0" style="font-size: 0.75rem;"><i>A good start in all aspects of life, InshaAllah, will help determine whether a path will be easy or difficult. This also applies to the moment when two people complete half of their faith.</i></p>
+                            <p class="mt-2 mb-0 p-0" style="font-size: 0.75rem;"><i>Make sure we strive to begin this journey, full of struggles and obstacles, with <b><u>taqwa (God-consciousness).</u></b></i></p>
+                            <p class="mt-2 mb-0 p-0" style="font-size: 0.75rem;"><i>This wedding is not about 2 hours, or 2.5 hours, or 3 hours. It's about the opportunity for Allah to help us when the storms in our household arrive.</i></p>
+                            <p class="mt-2 mb-0 p-0" style="font-size: 0.75rem;"><i>Know Allah in times of happiness, and He will remember you in times of difficulty.</i></p>
+                            <p class="mt-2 mb-0 p-0" style="font-size: 0.75rem;"><i>Barakallaahu fiikum.</i></p>
                             <b class="mt-4 mb-0 p-0" style="font-size: 0.75rem;display: block;">A beautiful advice from Ustadz Muhammad Nuzul Dzikri Hafidzhahullahu Ta‘ala</b>
                         </div>
+                        <img src="./assets/images/Kurma-768x869.png" alt="" style="max-width: 25%;"  data-aos="zoom-in-up" data-aos-duration="2000">
                     </div>
                 </section>
 
