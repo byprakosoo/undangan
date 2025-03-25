@@ -201,13 +201,13 @@ export const comment = (() => {
                 name.scrollIntoView({ behavior: 'smooth' });
             }
 
-            alert('Silakan masukkan nama Anda.');
+            alert('Please fill your name.');
             return;
         }
 
         const presence = document.getElementById('form-presence');
         if (!id && presence && presence.value == '0') {
-            alert('Silakan pilih status kehadiran Anda.');
+            alert('Please choose your availibility.');
             return;
         }
 
@@ -227,7 +227,7 @@ export const comment = (() => {
                 name.scrollIntoView({ behavior: 'smooth' });
             }
 
-            alert('Tolong isi komennya juga yah 😁');
+            alert('Please write down your message 😁');
             return;
         }
 
