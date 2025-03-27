@@ -207,7 +207,7 @@ export const comment = (() => {
 
         const presence = document.getElementById('form-presence');
         if (!id && presence && presence.value == '0') {
-            alert('Please choose your availibility.');
+            alert('Please select your availibility.');
             return;
         }
 
